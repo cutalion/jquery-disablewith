@@ -11,7 +11,34 @@ somewhere in your views:
 
 then in application.js you can write something like that:
 
-    $("a").disableWith({ text: "Processing..." })
+    $("a").disableWith();
 
 It will replace "Send request" words with "Processing..." before the request start,
 and turn it back on complete.
+
+You can change the text:
+
+    $("a").disableWith({ text: "Loading..." });
+  
+
+# Requirements
+
+* jquery-rails
+
+# Installation
+
+Add to the `Gemfile`
+
+    gem jquery-disablewith
+
+Then run 
+
+    bundle install
+
+# Usage
+
+Add 
+
+    //=require jquery.disablewith
+    
+into the `application.js` 
