@@ -14,7 +14,8 @@ then in application.js you can write something like that:
     $("a").disableWith();
 
 It will replace "Send request" words with "Processing..." before the request start,
-and turn it back on complete.
+and turn it back on complete. It will also disable the `click` event on the element 
+until the AJAX request complete.
 
 You can change the text:
 
