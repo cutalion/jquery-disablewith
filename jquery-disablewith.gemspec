@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.version     = Jquery::Disablewith::VERSION
   s.authors     = ["Alexander Glushkov"]
   s.email       = ["cutalion@gmail.com"]
-  s.homepage    = ""
+  s.homepage    = "https://github.com/cutalion/jquery-disablewith"
   s.summary     = %q{Plugin for disabling remote links}
   s.description = %q{This plugin gives you an option to disable remote links during the AJAX request}
 
